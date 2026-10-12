@@ -1,0 +1,44 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+header nav ul {
+      display: flex;
+    align-items: center;
+    gap: 50px;
+}
+ul li {
+    list-style:none;
+}
+ul li a{
+    text-decoration: none;
+    text-transform: capitalize;
+    color: black;
+}
+header button{
+    background-color: #0284c7;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border-color:#0284c7;
+    border-style: solid;
+}
+.hero-section{
+    background-color: #e9f6fd;
+    height: 90%;
+}
+.hero-section h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20%;
+}
